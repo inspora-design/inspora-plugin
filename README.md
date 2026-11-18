@@ -7,7 +7,7 @@ The plugin holds no credentials. Access requires signing in with an approved Ins
 ## Claude Code
 
 ```bash
-claude plugin marketplace add inspora-design/inspora-plugin
+claude plugin marketplace add https://github.com/inspora-design/inspora-plugin.git
 claude plugin install inspora@inspora-team
 ```
 
@@ -16,7 +16,7 @@ Then run `/mcp`, select `plugin:inspora:inspora`, choose **Authenticate** and si
 ## Codex
 
 ```bash
-codex plugin marketplace add inspora-design/inspora-plugin
+codex plugin marketplace add https://github.com/inspora-design/inspora-plugin.git
 codex plugin add inspora@inspora-team
 ```
 
